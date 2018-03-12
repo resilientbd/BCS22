@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skyphoto"
+    tools:context="com.rubel.rubelrana.bcs2.aboutActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="40dp"
+        android:text="My name is RUBEL RANA...
+I am a student of jagannath university...
+I completed Graduation on Statistics...
+Now my M.Sc study is progressing...
+I am a little programmer...
+I want to imrove myself day by day...
+I create this app for a little develop on your knowledge...."
+        android:textStyle="bold"
+        android:textColor="#ff0000"
+
+        />
+    </ScrollView>
+
+</RelativeLayout>

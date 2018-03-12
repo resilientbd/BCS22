@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.rubel.rubelrana.bcs2.SelectSubActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="আপনার নিজেকে যাচাই করে দেখুন বিসিএস এর জন্য কতটা দক্ষ আপনি?"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="25dp"
+        android:textStyle="italic"/>
+    <Button
+        android:id="@+id/pracid"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:background="@drawable/imag"
+        android:text="
+প্র্যাকটিস"
+        android:textColor="@color/colorred"
+        android:layout_marginTop="100dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:textStyle="bold"
+        android:layout_centerVertical="true"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:textSize="15dp"
+        android:text="প্র্যাকটিস করুন"
+        android:textColor="@color/colorred"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:id="@+id/slct2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/popp11"
+        android:textStyle="bold"
+        android:textColor="@color/colorred"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="220dp"
+        android:textSize="15dp"
+        android:layout_marginLeft="200dp"
+        android:text="বাছাই করে নিন কোন
+    বিষয়ে পড়বেন"
+        android:textColor="@color/colorred"/>
+    <Button
+        android:id="@+id/examid"
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="280dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/imag"
+        android:text="পরীক্ষা"
+        android:textStyle="bold"
+        android:textColor="@color/colorred"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textSize="15dp"
+        android:text="পরীক্ষা দিয়ে যাচাই
+  করুন"
+        android:textColor="@color/colorred"/>
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="120dp"
+        android:id="@+id/aboutid"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="280dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/imag"
+        android:text="
+
+ABOUT US"
+        android:textStyle="bold"
+        android:textColor="@color/colorred"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:textSize="15dp"
+        android:text="আমাদের সম্পর্কে জানুন"
+        android:layout_marginLeft="205dp"
+        android:textColor="@color/colorred"/>
+
+</RelativeLayout>

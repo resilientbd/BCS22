@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back1"
+    tools:context="com.rubel.rubelrana.bcs2.constritutionActivity">
+
+    <Button
+        android:id="@+id/ans1"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ans3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Button"
+        />
+
+    <Button
+        android:id="@+id/ans2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ans3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Button"
+
+        />
+
+    <Button
+        android:id="@+id/ans3"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/ans4"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/rounded_btn"
+        android:layout_centerHorizontal="true"
+        android:text="Button"
+        />
+
+    <Button
+        android:id="@+id/ans4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/nextBtn"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="13dp"
+        android:background="@drawable/rounded_btn"
+        android:text="Button"
+        />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="TextView"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/qu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:gravity="center"
+        android:textColor="#ff0"
+        android:textStyle="bold"
+        android:text="TextView"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/nextBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/rounded_btn"
+        android:textColor="#030000"
+        android:text="next" />
+
+
+
+</RelativeLayout>
